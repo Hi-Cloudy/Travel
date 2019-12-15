@@ -3,7 +3,7 @@
     <div class="title">周末去哪儿</div>
     <ul>
       <li
-        class="item border-bottom" v-for="item of lList" :key="item.id"
+        class="item border-bottom" v-for="item of list" :key="item.id"
       >
         <div class="item-img-wrapper">
           <img class="item-img" :src="item.imgUrl" />
@@ -20,26 +20,29 @@
 <script>
 export default {
   name: 'HomeWeekend',
-  data () {
-    return {
-      lList: [{
-        id: '0001',
-        imgUrl: 'https://images.pexels.com/photos/3293415/pexels-photo-3293415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-        title: '1111111111',
-        desc: '1111111111111111111'
-      }, {
-        id: '0002',
-        imgUrl: 'https://images.pexels.com/photos/3300825/pexels-photo-3300825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-        title: '22222222222222',
-        desc: '2222222222222222222222222'
-      }, {
-        id: '0003',
-        imgUrl: 'https://images.pexels.com/photos/2949717/pexels-photo-2949717.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-        title: '3333',
-        desc: '333333333333333333333'
-      }]
-    }
+  props: {
+    list: Array
   }
+  // data () {
+  //   return {
+  //     lList: [{
+  //       id: '0001',
+  //       imgUrl: 'https://images.pexels.com/photos/3293415/pexels-photo-3293415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+  //       title: '1111111111',
+  //       desc: '1111111111111111111'
+  //     }, {
+  //       id: '0002',
+  //       imgUrl: 'https://images.pexels.com/photos/3300825/pexels-photo-3300825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+  //       title: '22222222222222',
+  //       desc: '2222222222222222222222222'
+  //     }, {
+  //       id: '0003',
+  //       imgUrl: 'https://images.pexels.com/photos/2949717/pexels-photo-2949717.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+  //       title: '3333',
+  //       desc: '333333333333333333333'
+  //     }]
+  //   }
+  // }
 }
 </script>
 

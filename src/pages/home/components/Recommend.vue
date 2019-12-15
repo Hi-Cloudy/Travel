@@ -2,7 +2,7 @@
   <div>
     <div class="title">推荐</div>
     <ul>
-      <li class="item border-bottom" v-for="item of recommendList" :key='item.id'>
+      <li class="item border-bottom" v-for="item of list" :key='item.id'>
         <img class="item-img" :src="item.imgUrl" />
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
@@ -17,36 +17,39 @@
 <script>
 export default{
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '01',
-        imgUrl: 'https://images.pexels.com/photos/3290071/pexels-photo-3290071.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-        title: '111',
-        desc: '111111111111111'
-      }, {
-        id: '02',
-        imgUrl: 'https://images.pexels.com/photos/3326195/pexels-photo-3326195.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500?auto=compress&cs=tinysrgb&dpr=1&w=500',
-        title: '222',
-        desc: '2222222222222'
-      }, {
-        id: '03',
-        imgUrl: 'https://images.pexels.com/photos/3333538/pexels-photo-3333538.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-        title: '333',
-        desc: '333333333333'
-      }, {
-        id: '04',
-        imgUrl: 'https://images.pexels.com/photos/3075061/pexels-photo-3075061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-        title: '444',
-        desc: '114444444441111'
-      }, {
-        id: '05',
-        imgUrl: 'https://images.pexels.com/photos/3352398/pexels-photo-3352398.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-        title: '555',
-        desc: '1115555555555511'
-      }]
-    }
+  props: {
+    list: Array
   }
+  // data () {
+  //   return {
+  //     recommendList: [{
+  //       id: '01',
+  //       imgUrl: 'https://images.pexels.com/photos/3290071/pexels-photo-3290071.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+  //       title: '111',
+  //       desc: '111111111111111'
+  //     }, {
+  //       id: '02',
+  //       imgUrl: 'https://images.pexels.com/photos/3326195/pexels-photo-3326195.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500?auto=compress&cs=tinysrgb&dpr=1&w=500',
+  //       title: '222',
+  //       desc: '2222222222222'
+  //     }, {
+  //       id: '03',
+  //       imgUrl: 'https://images.pexels.com/photos/3333538/pexels-photo-3333538.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+  //       title: '333',
+  //       desc: '333333333333'
+  //     }, {
+  //       id: '04',
+  //       imgUrl: 'https://images.pexels.com/photos/3075061/pexels-photo-3075061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+  //       title: '444',
+  //       desc: '114444444441111'
+  //     }, {
+  //       id: '05',
+  //       imgUrl: 'https://images.pexels.com/photos/3352398/pexels-photo-3352398.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+  //       title: '555',
+  //       desc: '1115555555555511'
+  //     }]
+  //   }
+  // }
 }
 </script>
 

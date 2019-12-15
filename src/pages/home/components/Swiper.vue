@@ -1,21 +1,22 @@
 <!-- The ref attr used to find the swiper instance -->
 <template>
-  <div class="wrapper ">
-    <swiper :options="swiperOption" ref="mySwiper" >
-      <!-- slides -->
-      <swiper-slide v-for="item of imgList" :key="item.id">
-        <a :href="item.imgUrl" target="_blank">
-          <img class="swiper-img img-responsive" :src="item.imgUrl" />
+  <div class="wrapper">
+    <swiper  v-if="showSwiper">
+      <swiper-slide v-for="item of list" :key="item.id">
+        <a :href="item.imgUrl">
+          <img class="swiper-img" :src="item.imgUrl" />
         </a>
       </swiper-slide>
-    <!-- Optional controls -->
-    <div class="swiper-pagination"  slot="pagination"></div>
-  </swiper>
+      <div class="swiper-pagination"  slot="pagination"></div>
+    </swiper>
   </div>
 </template>
 <script>
 export default {
   name: 'HomeSwiper',
+  props: {
+    list: Array // 接收的数据类型
+  },
   data () {
     return {
       swiperOption: {
@@ -24,33 +25,30 @@ export default {
         // ...
         pagination: '.swiper-pagination',
         loop: true
-      },
-      imgList: [{
-        id: '01',
-        imgUrl: 'https://picjumbo.com/wp-content/uploads/christmas-tree-decorations-with-lovely-bokeh-1080x720.jpg'
-      },
-      {
-        id: '02',
-        imgUrl: 'https://picjumbo.com/wp-content/uploads/woman-with-a-cup-of-tea-1080x720.jpg'
-      },
-      {
-        id: '03',
-        imgUrl: 'https://picjumbo.com/wp-content/uploads/free-stock-photo-1080x720.jpg'
-      },
-      {
-        id: '04',
-        imgUrl: 'https://picjumbo.com/wp-content/uploads/cute-puppy-christmas-1080x720.jpg'
-      },
-      {
-        id: '05',
-        imgUrl: 'https://cdn.pixabay.com/photo/2014/02/27/16/09/microscope-275984_960_720.jpg'
-      }]
+      }
+      // imgList: [{
+      //   id: '01',
+      //   imgUrl: 'https://picjumbo.com/wp-content/uploads/christmas-tree-decorations-with-lovely-bokeh-1080x720.jpg'
+      // },
+      // {
+      //   id: '02',
+      //   imgUrl: 'https://picjumbo.com/wp-content/uploads/woman-with-a-cup-of-tea-1080x720.jpg'
+      // },
+      // {
+      //   id: '03',
+      //   imgUrl: 'https://picjumbo.com/wp-content/uploads/free-stock-photo-1080x720.jpg'
+      // },
+      // {
+      //   id: '04',
+      //   imgUrl: 'https://picjumbo.com/wp-content/uploads/cute-puppy-christmas-1080x720.jpg'
+      // },
+      // {
+      //   id: '05',
+      //   imgUrl: 'https://cdn.pixabay.com/photo/2014/02/27/16/09/microscope-275984_960_720.jpg'
+      // }]
     }
   },
   computed: {
-    swiper () {
-      return this.$refs.mySwiper.swiper
-    },
     showSwiper () {
       return this.list.length
     }
