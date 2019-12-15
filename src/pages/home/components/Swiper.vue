@@ -4,7 +4,7 @@
     <swiper :options="swiperOption" ref="mySwiper" >
       <!-- slides -->
       <swiper-slide v-for="item of imgList" :key="item.id">
-        <a :href="item.imgUrl">
+        <a :href="item.imgUrl" target="_blank">
           <img class="swiper-img img-responsive" :src="item.imgUrl" />
         </a>
       </swiper-slide>
