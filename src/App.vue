@@ -1,7 +1,9 @@
 <template>
   <div id="app">
    <!-- <img src="./assets/logo.png"> -->
-    <router-view/>
+   <keep-alive><!-- 加载后从内存将在 -->
+     <router-view/>
+   </keep-alive>
   </div>
 </template>
 
