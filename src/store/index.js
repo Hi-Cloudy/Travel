@@ -15,35 +15,35 @@ export default new Vuex.Store({
   }
 })
 
-// let city defaultCity = '上海'
-// try{
+// let defaultCity = '上海'
+
+// try {
 //   if (localStorage.city) {
 //     defaultCity = localStorage.city
 //   }
-// } catch(e){
-//   //TODO handle the exception
+// } catch (e) {
+//   // TODO handle the exception
 // }
 
 // export default new Vuex.Store({
 //   state: {
-// 	  city: localStorage.city || defaultCity
+//     city: localStorage.city || defaultCity
 //   },
 //   actions: {
-//     changeCity(ctx, city){
+//     changeCity (ctx, city) {
 //       console.log(city)
 //       ctx.commit('changeCity', city)
 //     }
 //   },
 //   mutations: {
-//     changeCity(state, city){
+//     changeCity (state, city) {
 //       console.log(city)
-//       state.city=city
-//       try{
-//         localStorage.city=city
-//       } catch(e){
-//         //TODO handle the exception
+//       state.city = city
+//       try {
+//         localStorage.city = city
+//       } catch (e) {
+//         // TODO handle the exception
 //       }
-
 //     }
 //   }
 // })
