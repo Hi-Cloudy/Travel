@@ -1,0 +1,43 @@
+[33m5f995a3[m[33m ([m[1;36mHEAD -> [m[1;32mcity-ajax[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/city-ajax[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{0}: checkout: moving from master to city-ajax
+[33m5f995a3[m[33m ([m[1;36mHEAD -> [m[1;32mcity-ajax[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/city-ajax[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{1}: checkout: moving from city-ajax to master
+[33m5f995a3[m[33m ([m[1;36mHEAD -> [m[1;32mcity-ajax[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/city-ajax[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{2}: checkout: moving from master to city-ajax
+[33m5f995a3[m[33m ([m[1;36mHEAD -> [m[1;32mcity-ajax[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/city-ajax[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{3}: merge city-ajax: Fast-forward
+[33m56d5adb[m[33m ([m[1;31morigin/city-router[m[33m, [m[1;32mcity-router[m[33m)[m HEAD@{4}: checkout: moving from city-components to master
+[33m56d5adb[m[33m ([m[1;31morigin/city-router[m[33m, [m[1;32mcity-router[m[33m)[m HEAD@{5}: checkout: moving from master to city-components
+[33m56d5adb[m[33m ([m[1;31morigin/city-router[m[33m, [m[1;32mcity-router[m[33m)[m HEAD@{6}: checkout: moving from city-router to master
+[33m56d5adb[m[33m ([m[1;31morigin/city-router[m[33m, [m[1;32mcity-router[m[33m)[m HEAD@{7}: checkout: moving from master to city-router
+[33m56d5adb[m[33m ([m[1;31morigin/city-router[m[33m, [m[1;32mcity-router[m[33m)[m HEAD@{8}: checkout: moving from city-router to master
+[33m56d5adb[m[33m ([m[1;31morigin/city-router[m[33m, [m[1;32mcity-router[m[33m)[m HEAD@{9}: checkout: moving from master to city-router
+[33m56d5adb[m[33m ([m[1;31morigin/city-router[m[33m, [m[1;32mcity-router[m[33m)[m HEAD@{10}: checkout: moving from city-components to master
+[33m64ebcdf[m[33m ([m[1;31morigin/index-axios[m[33m, [m[1;32mindex-axios[m[33m)[m HEAD@{11}: checkout: moving from city-ajax to city-components
+[33m5f995a3[m[33m ([m[1;36mHEAD -> [m[1;32mcity-ajax[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/city-ajax[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{12}: commit: add city data
+[33m56d5adb[m[33m ([m[1;31morigin/city-router[m[33m, [m[1;32mcity-router[m[33m)[m HEAD@{13}: checkout: moving from master to city-ajax
+[33m56d5adb[m[33m ([m[1;31morigin/city-router[m[33m, [m[1;32mcity-router[m[33m)[m HEAD@{14}: merge city-router: Fast-forward
+[33m64ebcdf[m[33m ([m[1;31morigin/index-axios[m[33m, [m[1;32mindex-axios[m[33m)[m HEAD@{15}: checkout: moving from city-router to master
+[33m56d5adb[m[33m ([m[1;31morigin/city-router[m[33m, [m[1;32mcity-router[m[33m)[m HEAD@{16}: commit: add city
+[33me15da09[m HEAD@{17}: commit: Add Router
+[33m64ebcdf[m[33m ([m[1;31morigin/index-axios[m[33m, [m[1;32mindex-axios[m[33m)[m HEAD@{18}: checkout: moving from master to city-router
+[33m64ebcdf[m[33m ([m[1;31morigin/index-axios[m[33m, [m[1;32mindex-axios[m[33m)[m HEAD@{19}: merge index-axios: Fast-forward
+[33m7355cf8[m[33m ([m[1;31morigin/index-weekend[m[33m, [m[1;32mindex-weekend[m[33m)[m HEAD@{20}: checkout: moving from index-axios to master
+[33m64ebcdf[m[33m ([m[1;31morigin/index-axios[m[33m, [m[1;32mindex-axios[m[33m)[m HEAD@{21}: commit: add axios
+[33m7355cf8[m[33m ([m[1;31morigin/index-weekend[m[33m, [m[1;32mindex-weekend[m[33m)[m HEAD@{22}: checkout: moving from master to index-axios
+[33m7355cf8[m[33m ([m[1;31morigin/index-weekend[m[33m, [m[1;32mindex-weekend[m[33m)[m HEAD@{23}: merge index-weekend: Fast-forward
+[33m35455e1[m HEAD@{24}: checkout: moving from index-weekend to master
+[33m7355cf8[m[33m ([m[1;31morigin/index-weekend[m[33m, [m[1;32mindex-weekend[m[33m)[m HEAD@{25}: commit: modified
+[33m35455e1[m HEAD@{26}: checkout: moving from master to index-weekend
+[33m35455e1[m HEAD@{27}: commit: modified
+[33ma5c3cb9[m[33m ([m[1;31morigin/index-recommend[m[33m, [m[1;32mindex-recommend[m[33m)[m HEAD@{28}: merge index-recommend: Fast-forward
+[33mcd1a418[m HEAD@{29}: checkout: moving from index-recommend to master
+[33ma5c3cb9[m[33m ([m[1;31morigin/index-recommend[m[33m, [m[1;32mindex-recommend[m[33m)[m HEAD@{30}: commit: add recommend
+[33mcd1a418[m HEAD@{31}: checkout: moving from master to index-recommend
+[33mcd1a418[m HEAD@{32}: commit: add menu
+[33m6108bab[m[33m ([m[1;31morigin/swiper[m[33m, [m[1;32mswiper[m[33m)[m HEAD@{33}: checkout: moving from index-icon to master
+[33maebe7d3[m[33m ([m[1;32mindex-swiper[m[33m, [m[1;32mindex-icon[m[33m)[m HEAD@{34}: checkout: moving from master to index-icon
+[33m6108bab[m[33m ([m[1;31morigin/swiper[m[33m, [m[1;32mswiper[m[33m)[m HEAD@{35}: checkout: moving from index-icon to master
+[33maebe7d3[m[33m ([m[1;32mindex-swiper[m[33m, [m[1;32mindex-icon[m[33m)[m HEAD@{36}: checkout: moving from index-swiper to index-icon
+[33maebe7d3[m[33m ([m[1;32mindex-swiper[m[33m, [m[1;32mindex-icon[m[33m)[m HEAD@{37}: checkout: moving from master to index-swiper
+[33m6108bab[m[33m ([m[1;31morigin/swiper[m[33m, [m[1;32mswiper[m[33m)[m HEAD@{38}: checkout: moving from swiper to master
+[33m6108bab[m[33m ([m[1;31morigin/swiper[m[33m, [m[1;32mswiper[m[33m)[m HEAD@{39}: checkout: moving from master to swiper
+[33m6108bab[m[33m ([m[1;31morigin/swiper[m[33m, [m[1;32mswiper[m[33m)[m HEAD@{40}: commit: change swiper
+[33m7819bb0[m HEAD@{41}: commit: add swiper
+[33maebe7d3[m[33m ([m[1;32mindex-swiper[m[33m, [m[1;32mindex-icon[m[33m)[m HEAD@{42}: commit (initial): first commit

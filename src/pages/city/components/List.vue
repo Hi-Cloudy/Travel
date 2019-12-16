@@ -17,10 +17,10 @@
           </div>
         </div>
       </div>
-      <div class='area' v-for='(item, key) of cities' :key='key'>
+      <div class='area' v-for='(item, key) of cities' :key='key' :ref="key">
         <div class="title border-top-bottom">{{key}}</div>
         <div class="item-list">
-          <div class="item border-bottom" v-for='innerItem of item' :key='innerItem.name'>{{ innerItem.name }}</div>
+          <div class="item border-bottom" v-for='innerItem of item' :key='innerItem.id'>{{ innerItem.name }}</div>
         </div>
       </div>
     </div>
@@ -38,8 +38,17 @@ export default {
   },
   mounted () {
     this.scroll = new Bscroll(this.$refs.wrapper)
+  },
+  watch: {
+    letter () {
+      // console.log(this.letter)
+      const element = this.$refs[this.letter][0]
+      console.log(element)
+      this.scroll.scrollToElement(element)
+    }
   }
 }
+
 </script>
 
 <style scoped="scoped">
